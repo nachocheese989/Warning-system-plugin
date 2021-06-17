@@ -1,0 +1,30 @@
+main: com.nachocheese.plugin1.main
+name: plugin1
+version: 1.0
+author: nbower
+description: allows people with permissions to warn other players
+commands:
+  warn:
+    description: allows people with permissions to warn other players
+    usage: "/warn <add|clear|get> <player> []"
+    permission: plugin1.warn.use
+    permission-message: you do not have permission to use this command.
+
+    
+    
+    
+    
+ 
+  addhider:
+    description: puts a player onto the hider list (can only have one player on this list)
+    usage: "/addhider <player>"
+  addhunter:
+    description: add a player to the hunters list (can have multiple players on this list)
+    usage: "/addhunter <player>"
+  start:
+    description: teleports the hiders then the hunters one minute later
+    usage: "/start"
+  end:
+    description: ends the manhunt
+    usage: "/end"
+   
