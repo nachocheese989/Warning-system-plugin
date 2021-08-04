@@ -1,0 +1,11 @@
+main: com.nachocheese.plugin1.main
+name: plugin1
+version: 1.0
+author: nbower
+description: allows people with permissions to warn other players
+commands:
+  warn:
+    description: allows people with permissions to warn other players
+    usage: "/warn <add|clear|get> <player> []"
+    permission: plugin1.warn.use
+    permission-message: you do not have permission to use this command.
